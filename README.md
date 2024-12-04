@@ -1,5 +1,6 @@
 
 # 🎄 Advent of Code 2024 - Rust Solutions 🦀
+![Days Completed](https://img.shields.io/badge/days%20completed-1%2F25-blue)
 
 Hi! Welcome to my Advent of Code 2024 repository. I hope you find it fun, helpful, or maybe just a little inspiring.
 
