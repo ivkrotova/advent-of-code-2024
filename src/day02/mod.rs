@@ -2,6 +2,11 @@ use crate::helpers::readers;
 use std::io;
 
 fn parse_levels(report: &str) -> Vec<i32> {
+    // parse is a method that converts a string into another type 
+    // turbofish syntax ::<>() helps the compiler infer the type of the value being parsed
+    // map() is used to apply a function to each element of the iterator
+    // collect() gathers the results into a collection such as a vector
+    // unwrap() is used to handle the Result returned by parse()
     report.split_whitespace()
         .map(|s| s.parse::<i32>().unwrap())
         .collect::<Vec<i32>>()
@@ -9,6 +14,7 @@ fn parse_levels(report: &str) -> Vec<i32> {
 
 pub fn all_increasing(report: &str) -> bool {
     let levels = parse_levels(report);
+    // usize is an unsigned integer type that is the same size as the word size of the machine
     for i in 0..levels.len() - 1 {
         if levels[i] >= levels[i + 1] {
             return false;
@@ -57,7 +63,6 @@ pub fn solve() -> io::Result<()> {
             safe_reports += 1;
         }
     }
-    // Print the number of safe reports
-    println!("Safe reports: {}", safe_reports);
+    println!("The Day 2 solution is: {}", safe_reports);
     return Ok(());
 }
