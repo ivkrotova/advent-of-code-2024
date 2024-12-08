@@ -3,23 +3,14 @@
 use std::fs::File;
 // io is used input/output functionality
 use std::io::{self, Read};
-
+use crate::helpers::readers;
 
 // This function solves the puzzle and returns a Result type
 // The Result can either be Ok (success) or an io::Error
 pub fn solve() -> io::Result<()> {
     // First, define the path to the input file
     let file_path = "src/day01/input.txt";
-    // Second, open the file and unwrap the Result (panic if it fails)
-    // mut means the file is mutable, that is, it can be changed
-    let mut file = File::open(file_path).unwrap();
-    // Third, create an empty String to store the file contents
-    let mut contents = String::new();
-    // Fourth, read the entire file into string
-    // read_to_string is a method that reads the entire file into a string
-    // it is saved into contents
-    // buf: &mut String is used to pass the mutable reference to the string (contents)
-    file.read_to_string(&mut contents).unwrap();
+    let contents = readers::read_file_contents(file_path);
 
     // Create two empty vectors to store our numbers
     // Vec<i32> means a vector (growable array) of 32-bit integers
@@ -56,7 +47,7 @@ pub fn solve() -> io::Result<()> {
         .map(|(c1, c2)| (c1 - c2).abs())
         .sum();
 
-    println!("Total difference: {}", total_difference);
+    println!("The Day 1 solution is: {}", total_difference);
     
     // Return Ok to indicate success
     Ok(())
