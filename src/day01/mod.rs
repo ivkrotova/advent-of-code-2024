@@ -1,10 +1,5 @@
-// Import necessary modules from the standard library
-// File is used for reading files from the disk
-use std::fs::File;
-// io is used input/output functionality
-use std::io::{self, Read};
 use crate::helpers::readers;
-
+use std::io;
 // This function solves the puzzle and returns a Result type
 // The Result can either be Ok (success) or an io::Error
 pub fn solve() -> io::Result<()> {
