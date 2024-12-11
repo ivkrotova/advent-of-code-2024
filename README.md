@@ -1,4 +1,3 @@
-
 # 🎄 Advent of Code 2024 - Rust Solutions 🦀
 ![Days Completed](https://img.shields.io/badge/days%20completed-4%2F25-blue)
 
@@ -51,7 +50,13 @@ Advent of Code puzzles are released daily, and I’ll be adding solutions here a
 | 2    | [Red-Nosed Reports](https://adventofcode.com/2024/day/2)               | [Day 2 Solution](https://github.com/ivkrotova/advent-of-code-2024/tree/main/src/day02) |
 | 3    | [Mull It Over](https://adventofcode.com/2024/day/3)             | [Day 3 Solution](https://github.com/ivkrotova/advent-of-code-2024/tree/main/src/day03) |  |
 | 4    | [Ceres Search](https://adventofcode.com/2024/day/4)           | [Day 4 Solution](https://github.com/ivkrotova/advent-of-code-2024/tree/main/src/day04) |
-| ...  | More to come!                   | Stay tuned!                          |
+| 5    | [Print Queue](https://adventofcode.com/2024/day/5)           | Coming soon |
+| 6    | [Guard Gallivant](https://adventofcode.com/2024/day/6)           | Coming soon |
+| 7    | [Bridge Repair](https://adventofcode.com/2024/day/7)           | Coming soon |
+| 8    | [Resonant Collinearity](https://adventofcode.com/2024/day/8)           | Coming soon |
+| 9    | [Disk Fragmenter](https://adventofcode.com/2024/day/9)           | Coming soon |
+| 10   | [Hoof It](https://adventofcode.com/2024/day/10)           | Coming soon |
+| 11   | [Plutonian Pebbles](https://adventofcode.com/2024/day/11)           | Coming soon |
 
 You can also check out the full list of puzzles directly on the [Advent of Code website](https://adventofcode.com/2024/).
 
