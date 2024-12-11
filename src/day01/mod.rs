@@ -4,7 +4,7 @@ use std::io;
 // The Result can either be Ok (success) or an io::Error
 pub fn solve() -> io::Result<()> {
     // First, define the path to the input file
-    let file_path = "src/day01/input.txt";
+    let file_path = "src/data/input01";
     let contents = readers::read_file_contents(file_path);
 
     // Create two empty vectors to store our numbers

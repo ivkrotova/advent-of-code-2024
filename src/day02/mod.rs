@@ -53,7 +53,7 @@ pub fn is_safe(report: &str) -> bool {
 
 pub fn solve() -> io::Result<()> {
     // First, define the path to the input file
-    let file_path = "src/day02/input";
+    let file_path = "src/data/input02";
     let contents = readers::read_file_contents(file_path);
     let mut safe_reports = 0;
     // The data (contents) consists of many reports, one report per line
