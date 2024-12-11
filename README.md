@@ -1,6 +1,6 @@
 
 # 🎄 Advent of Code 2024 - Rust Solutions 🦀
-![Days Completed](https://img.shields.io/badge/days%20completed-3%2F25-blue)
+![Days Completed](https://img.shields.io/badge/days%20completed-4%2F25-blue)
 
 Hi! Welcome to my Advent of Code 2024 repository. I hope you find it fun, helpful, or maybe just a little inspiring.
 
@@ -50,7 +50,7 @@ Advent of Code puzzles are released daily, and I’ll be adding solutions here a
 | 1    | [Historian Hysteria](https://adventofcode.com/2024/day/1)            | [Day 1 Solution](https://github.com/ivkrotova/advent-of-code-2024/tree/main/src/day01)  |
 | 2    | [Red-Nosed Reports](https://adventofcode.com/2024/day/2)               | [Day 2 Solution](https://github.com/ivkrotova/advent-of-code-2024/tree/main/src/day02) |
 | 3    | [Mull It Over](https://adventofcode.com/2024/day/3)             | [Day 3 Solution](https://github.com/ivkrotova/advent-of-code-2024/tree/main/src/day03) |  |
-| 4    | [Ceres Search](https://adventofcode.com/2024/day/4)           | Day 4 Solution  |
+| 4    | [Ceres Search](https://adventofcode.com/2024/day/4)           | [Day 4 Solution](https://github.com/ivkrotova/advent-of-code-2024/tree/main/src/day04) |
 | ...  | More to come!                   | Stay tuned!                          |
 
 You can also check out the full list of puzzles directly on the [Advent of Code website](https://adventofcode.com/2024/).
